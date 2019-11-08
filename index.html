@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>WEBAGENCY | Agence de developpement web</title>
+        <meta name="description" content="Une agence web entièrement dédiée à la création de votre site web, sa promotion et la réussite de votre projet digital." />
+        <link rel="icon" href="images/ico/favicon.ico" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="WebAgency: L'agence de tous vos projets !" />
+        <meta property="og:description" content="Une agence web entièrement dédiée à la création de votre site web, sa promotion et la réussite de votre projet digital." />
+        <meta property="og:url" content="http://peron-nicolas.com/projet1/" />
+        <meta property="og:site_name" content="WebAgency" />
+        <meta property="og:image" content="http://peron-nicolas.com/projet1/images/logo.png" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@WebAgency" />
+        <meta name="twitter:title" content="WebAgency: L'agence de tous vos projets !" />
+        <meta name="twitter:description" content="Une agence web entièrement dédiée à la création de votre site web, sa promotion et la réussite de votre projet digital." />
+        <meta name="twitter:image" content="http://peron-nicolas.com/projet1/images/logo.png" />
+    </head>
+
+    <body id="accueil">
+        <header class="header">                                                         <!-- logo et menu de navigation -->
+            <img class="logo" src="images/logo.png" alt="webagency" />
+            <nav class="menu_navigation">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#projets">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="slideshow">                                                                <!-- futur slider -->
+            <div class="slider">
+                <figure>
+                    <img src="images/slider/bg1.jpg" alt="Petite fille vu de face avec ses deux mains colorées de peinture" />
+                    <figcaption>
+                        <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS <br />VOS PROJETS !</h1>
+                        <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                            <input class="boutonbleu" type="button" value="Plus d'infos" onclick="window.location.href='#PageServices'" />   
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/slider/bg2.jpg" alt="Petit garçon vu de coté criant dans un mégaphone" />
+                    <figcaption>
+                        <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS <br />VOS PROJETS !</h1>
+                        <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                            <input class="boutonbleu" type="button" value="Plus d'infos" onclick="window.location.href='#PageServices'" />   
+                    </figcaption>
+                </figure>
+                <div class="sliderfleches sliderflechesg">&#8249;</div>
+                <div class="sliderfleches sliderflechesd">&#8250;</div>
+                <div id="timeline"></div>
+            </div>
+        </section>
+
+        <section id="Services">                                                   <!-- NOS SERVICES -->
+            <h1>NOS SERVICES</h1>
+            <div class="lignerondsoush1">
+                <div class="rondsoush1bleu"></div>
+            </div>
+            <p>Notre expertise et notre savoir-faire sont au service de votre projet.<br />Nous vous proposons plusieurs services pour votre site web, ainsi qu'une maintenance régulière.</p>
+            <div class="servicemiseenpage">
+                <img id="ecran_services" src="images/main-feature.png" alt="écran d'ordinateur apple gris et noir" />
+                <div class="categories_services">
+                    <div id="fleche_services">
+                        <div class="fa-stack fa-lg servicesimagestaille">
+                            <div class="cercle"></div>
+                            <i class="taillecouleur fa fa-line-chart"></i>
+                            <div class="rondbleublancprojet"></div>
+                        </div>
+                        <div>
+                            <h2>UX design</h2>
+                            <p>Nous concevons les interfaces et la navigation de vos sites et applications avec un seul objectif : amener vos utilisateurs à réaliser les actions que vous attendez de lui. </p>
+                        </div>
+                    </div>
+                    <div id="rond_services">
+                        <div class="fa-stack fa-lg servicesimagestaille">
+                            <div class="cercle"></div>
+                            <i class="taillecouleur fa fa-pie-chart"></i>
+                            <div class="rondbleublancprojet"></div>
+                        </div>
+                        <div>
+                            <h2>UI design</h2>
+                            <p>Décortiquer l’identité d’une marque est la base d’un design réussi. Notre équipe Création vit avec la soif d’ingurgiter tout ce qui peut l’inspirer.</p>
+                        </div>
+                    </div>
+                    <div id="cubes_services">
+                        <div class="fa-stack fa-lg servicesimagestaille">
+                            <div class="cercle"></div>
+                            <i class="taillecouleur fa fa-cubes"></i>
+                            <div class="rondbleublancprojet"></div>
+                        </div>
+                        <div>
+                            <h2>SEO</h2>
+                            <p>Réalisation d’un audit SEO technique et stratégique entièrement personnalisé pour identifier et corriger les obstacles à la bonne visibilité de votre site.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets">                                                                       <!-- NOS PROJETS -->
+            <h1>NOS PROJETS</h1>
+            <div class="lignerondsoush1">
+                <div class="rondsoush1bleu"></div>
+            </div>
+            <p>WEBAGENCY conçoit et réalise des solutions web sur mesure, décourvrez les dernières rélisations.</p>
+            <nav class="menu_projets">
+                <ul>
+                    <li id="active"><a href="#Allworks">All Works</a></li>
+                    <li><a href="#Creative">Creative</a></li>
+                    <li><a href="#Corporate">Corporate</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="images_nosprojets">
+                <article class="sliderprojets">
+                    <img src="images/portfolio/01.jpg" alt="Site de vente de lunettes ">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°1</h2>
+                            <p>Site spécialisé dans la vente de lunettes</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="sliderprojets">
+                    <img src="images/portfolio/02.jpg" alt="Site d'élevage de lapins">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°2</h2>
+                            <p>Bijouterie</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="sliderprojets">
+                    <img src="images/portfolio/03.jpg" alt=">Boutique en ligne de vêtements">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°3</h2>
+                            <p>Boutique en ligne de vente de vêtements</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="sliderprojets">
+                    <img src="images/portfolio/04.jpg" alt="Site pour un architecte">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°4</h2>
+                            <p>Architecte</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="sliderprojets">
+                    <img src="images/portfolio/05.jpg" alt="Boutique de vente de sac pour les entreprises">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°5</h2>
+                            <p>Vente de chaussures</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="sliderprojets">
+                    <img src="images/portfolio/06.jpg" alt="Site pour une agence de voyage">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°6</h2>
+                            <p>Agence de voyage</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="sliderprojets">
+                    <img src="images/portfolio/07.jpg" alt="Site de vente d'avions">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°7</h2>
+                            <p>Site aéronautique</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="sliderprojets">
+                    <img src="images/portfolio/08.jpg" alt="Vente de fourniture de bureau">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°8</h2>
+                            <p>Papeterie</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="sliderprojets">
+                    <img src="images/portfolio/full.jpg" alt="Site de fast food">
+                    <div class="overlay">
+                        <div class="eyerond"></div>
+                        <i class="fa fa-eye fa-lg"></i>
+                        <div class="textimages">
+                            <h2>Projet N°9</h2>
+                            <p>Fast Food</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4593.924946984455!2d2.341583988765961!3d48.86075875701126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e267a32d441%3A0xb0088e1f7c07f451!2sPyramide+du+Louvre!5e1!3m2!1sfr!2sfr!4v1518597725138" allowfullscreen></iframe>
+                <div class="overlaymap">
+                    <div id="mapcolor"></div>
+                </div>
+                <form class="formulaire" method="post" action="traitement.php">
+                    <h1>Contact Info</h1>
+                    <address>WebAgency SAS<br />
+                    25 Rue d'Hauteville 75010 Paris<br />
+                    Tel: 01 02 03 04 05</address>
+                    <div id="caseformulaire">
+                        <input type="text" name="Name" id="name" placeholder="Name"/>
+                        <input type="email" name="Email" id="email" placeholder="Email"/>
+                        <input type="text" name="Subject" id="subject" placeholder="Subject"/>
+                        <textarea name="textarea" id="Message" placeholder="Message"></textarea>
+                    </div>
+                    <input class="boutonbleu" type="button" value="Send Message" onclick="window.location.href='#contact'" />   
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
